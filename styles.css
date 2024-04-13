@@ -1,0 +1,30 @@
+/* Underline all h1 tags */
+h1 {
+    text-decoration: underline;
+}
+
+/* Bold 'Beagle' wherever it exists */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.top-section .bold {
+    font-weight: bold;
+}
+
+.image-section .bold {
+    font-weight: bold;
+}
+
+.trivia-section .bold {
+    font-weight: bold;
+}
+
+/* Bold 'Beagle' within <p> tags */
+p:contains('beagle') {
+    font-weight: bold;
+}
